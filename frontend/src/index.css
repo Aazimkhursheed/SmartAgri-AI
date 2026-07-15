@@ -135,3 +135,52 @@ img {
   margin-top: 10px;
   border-radius: 10px;
 }
+
+.card {
+  max-width: 950px;
+  margin: auto;
+  padding: 25px;
+  background: #1e293b;
+  border-radius: 16px;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 25px;
+}
+
+.input-box {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  background: #334155;
+  color: white;
+  border: 1px solid #475569;
+}
+
+.btn-primary {
+  padding: 12px 28px;
+  background: #22c55e;
+  border-radius: 8px;
+  color: white;
+  border: none;
+}
+
+.btn-secondary {
+  padding: 12px 28px;
+  background: #475569;
+  border-radius: 8px;
+  color: white;
+  border: none;
+}
+
+.result-card {
+  margin-top: 30px;
+  padding: 25px;
+  border-radius: 14px;
+  background: #1e293b;
+  border: 1px solid #334155;
+  text-align: center;
+}
