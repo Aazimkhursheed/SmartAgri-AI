@@ -47,7 +47,8 @@ app.add_middleware(
 )
 
 # ---------------- PATHS ----------------
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+# BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CROP_ENCODER_PATH = os.path.join(BASE_DIR, "models", "crop_encoder.pkl")
 FERT_ENCODER_PATH = os.path.join(BASE_DIR, "models", "fertilizer_encoder.pkl")
 

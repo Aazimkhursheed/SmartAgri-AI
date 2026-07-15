@@ -4,7 +4,10 @@ import os
 import torchvision.models as models
 
 # backend/app/models_loader.py → go 2 levels up → AGRICULTURE → models/
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+# BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+# MODEL_PATH = os.path.join(BASE_DIR, "models")
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MODEL_PATH = os.path.join(BASE_DIR, "models")
 
 # Global variables
