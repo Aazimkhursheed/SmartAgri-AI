@@ -2,17 +2,18 @@ from pydantic import BaseModel
 
 
 class CropRequest(BaseModel):
+    user_email: str
     N: float
     P: float
     K: float
     temperature: float
     humidity: float
-    rainfall: float
     ph: float
+    rainfall: float
 
 
 class CropResponse(BaseModel):
-    crop: str
+    prediction: str
 
 
 class FertilizerRequest(CropRequest):
