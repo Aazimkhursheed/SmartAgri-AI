@@ -32,11 +32,12 @@ export default function Auth({ onLogin }) {
           }
         : formData;
 
-      const res = await axios.post(
-        `http://127.0.0.1:8000/${endpoint}`,
-        payload
-      );
+const API_URL = import.meta.env.VITE_API_URL;
 
+const res = await axios.post(
+  `${API_URL}/${endpoint}`,
+  payload
+);
       localStorage.setItem("email", formData.email);
 
       alert(
