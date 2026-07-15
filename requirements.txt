@@ -14,8 +14,8 @@ pandas==2.3.1
 scikit-learn==1.7.2
 joblib==1.5.1
 
-torch==2.8.0
-torchvision==0.23.0
+torch==2.11.0
+torchvision==0.26.00
 pillow==11.3.0
 
 bcrypt==4.3.0
